@@ -72,3 +72,32 @@ To run this project on your local environment, run the following commands:
    git clone [https://github.com/your-username/smart-study.git](https://github.com/your-username/smart-study.git)
    cd smart-study
 ## Project Structure
+├── index.html                                                                     
+├── package.json                   
+├── vite.config.ts        
+├── tsconfig.json              
+├── tsconfig.app.json            
+├── tsconfig.node.json         
+├── tailwind.config.js        
+├── postcss.config.js            
+├── eslint.config.js            
+├── .gitignore                 
+└── src/                  
+├── main.tsx                 
+├── App.tsx                  
+├── index.css              
+├── types.ts                 
+├── vite-env.d.ts                 
+├── components/              
+│   ├── StarCursor.tsx                      
+│   ├── AuthModal.tsx                         
+│   ├── LandingPage.tsx                  
+│   ├── CoursePage.tsx              
+│   ├── StudyTracker.tsx                    
+│   ├── YouTubeSearch.tsx             
+│   └── AiDoubtSolver.tsx               
+├── data/                            
+│   └── roadmaps.ts                  
+└── lib/                           
+└── storage.ts             
+                         
