@@ -371,4 +371,3 @@ async function callAi(provider: Provider, key: string, question: string): Promis
   const data = await res.json();
   return data?.choices?.[0]?.message?.content || '';
 }
-

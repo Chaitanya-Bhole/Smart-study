@@ -31,6 +31,9 @@ export default function YouTubeSearch({ onBack }: Props) {
   const ytResultsUrl = searched
     ? `https://www.youtube.com/results?search_query=${encodeURIComponent(searched + ' lecture tutorial')}`
     : '';
+  const ytWatchUrl = searched
+    ? `https://www.youtube.com/watch?v=&search_query=${encodeURIComponent(searched)}`
+    : '';
 
   return (
     <div className="content-layer min-h-screen bg-gradient-to-b from-netflix-black via-netflix-black-soft to-black">

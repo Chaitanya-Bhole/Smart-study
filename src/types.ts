@@ -47,4 +47,3 @@ export type RoadmapPhase = {
 };
 
 export type Page = 'home' | CourseId | 'tracker' | 'youtube' | 'ai-doubt';
-

@@ -162,4 +162,3 @@ export default function StarCursor() {
 
   return <canvas id="star-canvas" ref={canvasRef} aria-hidden="true" />;
 }
-
